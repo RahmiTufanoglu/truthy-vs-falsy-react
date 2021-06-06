@@ -1,0 +1,16 @@
+{
+  "presets": ["@nrwl/next/babel"],
+  "plugins": [
+    [
+      "styled-components",
+      {
+        "pure": true,
+        "ssr": true,
+        "minify": true,
+        "transpileTemplateLiterals": true,
+        "displayName": true,
+        "preprocess": false
+      }
+    ]
+  ]
+}
